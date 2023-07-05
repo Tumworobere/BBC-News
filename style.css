@@ -18,7 +18,7 @@
   
   nav {
     width: 100%;
-    background-color:black;
+    background-color:white;
     padding-left: 30px;
     padding-right: 10px;
     display: flex;
@@ -46,11 +46,10 @@
     display: flex;
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color:black;
   }
   
   .nav-item:hover {
-    background-color:black;
     vertical-align: baseline;
   }
   
@@ -69,3 +68,77 @@
     height: 40px;
     width: 100%;
   }
+
+  right-header {
+    min-height: 4rem;
+    margin-left: auto;
+}
+
+button-text {
+    border: 0;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+#orb-nav-more span.more-mobile, .orbit-domestic-no div.orbit-header-left, .orbit-domestic-no div.orbit-header-right, .orbit-domestic-yes div.orbit-header-left, .orbit-domestic-yes div.orbit-header-right {
+    display: inherit;
+}
+
+.orb-nav-pri-container .orbit-header-right {
+    min-height: 4rem;
+    margin-left: auto;
+}
+.b-r a, .b-r abbr, .b-r acronym, .b-r address, .b-r applet, .b-r article, .b-r aside, .b-r audio, .b-r b, .b-r big, .b-r blockquote, .b-r canvas, .b-r caption, .b-r center, .b-r cite, .b-r code, .b-r dd, .b-r del, .b-r details, .b-r dfn, .b-r div, .b-r dl, .b-r dt, .b-r em, .b-r embed, .b-r fieldset, .b-r figcaption, .b-r figure, .b-r footer, .b-r form, .b-r h1, .b-r h2, .b-r h3, .b-r h4, .b-r h5, .b-r h6, .b-r header, .b-r i, .b-r iframe, .b-r img, .b-r ins, .b-r kbd, .b-r label, .b-r legend, .b-r li, .b-r mark, .b-r menu, .b-r object, .b-r ol, .b-r output, .b-r p, .b-r pre, .b-r q, .b-r ruby, .b-r s, .b-r samp, .b-r section, .b-r small, .b-r span, .b-r strike, .b-r strong, .b-r sub, .b-r summary, .b-r sup, .b-r table, .b-r tbody, .b-r td, .b-r tfoot, .b-r th, .b-r thead, .b-r time, .b-r tr, .b-r tt, .b-r u, .b-r ul, .b-r var, .b-r video, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.orbit-header-right {
+    padding-left: 0.75rem;
+}
+
+.orbit-header-left, .orbit-header-right {
+    display: flex;
+}
+
+div {
+    display: block;
+}
+
+.orb-nav-pri-container {
+    min-height: 4rem;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1px;
+}
+
+.orbit-ux-v5 .orb-nav-search {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4rem;
+}
+
+.orbit-ux-v5 .orb-nav-search .orb-search__button, .orbit-ux-v5 .orb-nav-search .orbit-search__button {
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 2.5rem;
+}
