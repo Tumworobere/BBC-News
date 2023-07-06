@@ -142,3 +142,7 @@ div {
     text-decoration: none;
     width: 2.5rem;
 }
+
+search-button {
+  display: flex;
+}
